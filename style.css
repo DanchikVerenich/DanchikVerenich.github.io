@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+.HeaderList>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(img/1618319719_22-phonoteka_org-p-krasivii-zadnii-fon-dlya-fotoshopa-26.jpg);
+}
+.Text {
+    width: 600px;
+    height: 45px;
+    font-size: 40px;
+    color: chocolate;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+.Text2 {
+    width: 600px;
+    height: 40px;
+    font-size: 25px;
+    color: aqua;
+    margin-left: 200px;
+}
+
+    
+
+.Text3 {
+    width: 600px;
+    height: 45px;
+    font-size: 20px;
+    color: cadetblue;
+    margin-left: 200px;
+}
+.a {
+    width: 275px;
+}
+.poloska {
+    background-color: gray;
+    width: 275px;
+    font-size: 40px;
+    height: 500px;
+    border: 15px;
+    border-style: groove;
+    justify-content: space-between;
+}
+.a {
+    width: 275px;
+}
+.a {
+    width: 275px;
+}
+main{
+    width: 100%;
+    height: 1300px;    
+}
+.mainmain {
+    height: 683px;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+}
+.left {
+    width: 15%;
+    height: 683px;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.right {
+    height: 683px;
+    width: 85%;
+    background-color: bisque;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.left>div {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+}
+.right>div {
+    height: 683px;
+    width: 1000px;
+    background-color: coral;
+    display: inline-block;
+}
+.MainPoloska{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info {
+    font-size: 30px;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer>div>ul {
+    list-style: none;
+}
+@media (max-width: 920px) {
+    .HeaderList>ul {
+        font-size: 25px;
+    }
+}
+@media (max-width: 850px) {
+    .HeaderList>ul {
+        font-size: 20px;
+    }
+}
+@media (max-width: 760px) {
+    .Text {
+        font-size: 30px;
+    }
+    .Text2 {
+        font-size: 20px;
+    }
+    .Text3 {
+        font-size: 15px;
+        width: 500px; 
+    }
+}
